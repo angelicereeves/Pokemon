@@ -1,0 +1,52 @@
+body { /* Style for the body of the page */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #b2dae6;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 { /* Style for the main heading */
+  color: #ea1d1d;
+}
+
+.container { /* Container for the input and button */
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input { /* Style for the input field */
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button {  /* Style for the button */
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover { /* Hover effect for the button */
+  background-color: #5c57ea;
+}
+
+
+#result img { /* Style for the Pokemon image */
+  width: 150px;
+  margin-top: 20px;
+}
+
+.error { /* Style for error messages */
+  color: red;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
